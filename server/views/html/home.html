@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.5/css/bulma.min.css">
+</head>
+<body>
+<form action="/public/auth" method="post">
+  <section class="section">
+    <div class="container">
+  <div class="field">
+    <label for="id" class="label">User ID you want to generate an Auth Token For</label>
+    <div class="control">
+      <input class="input" name="id" id="id" type="text" placeholder="User ID">
+    </div>
+  </div>
+
+  <div class="field is-grouped">
+    <div class="control">
+      <button class="button is-link">Submit</button>
+    </div>
+    <div class="control">
+      <button class="button is-text">Cancel</button>
+    </div>
+  </div>
+    </div>
+  </section>
+  <footer class="footer is-dark" style="position: fixed; left: 0; bottom: 0; width: 100%; padding: 1rem 1.5rem 1rem">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Quick JSON API</strong> by <a href="https://github.com/Abourass">Antonio Bourassa</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+</form>
+</body>
+<script>
+  console.log(`
+
+     ##### /    ##   ###      /
+  ######  /  #####    ###   #/
+ /#   /  /     #####   ###  ##
+/    /  ##     # ##      ## ##
+    /  ###     #         ## ##
+   ##   ##     #         ## ##  /##  ##   ####
+   ##   ##     #         ## ## / ###  ##    ###  /
+   ##   ##     #         ## ##/   ### ##     ###/
+   ##   ##     #         ## ##     ## ##      ##
+   ##   ##     #         ## ##     ## ##      ##
+    ##  ##     #         ## ##     ## ##      ##
+     ## #      #         /  ##     ## ##      ##
+      ###      /##      /   ##     ## ##      ##
+       #######/ #######/    ##     ##  #########
+         ####     ####       ##    ##    #### ###
+                                   /           ###
+                                  /     #####   ###
+                                 /    /#######  /#
+                                /    /      ###/
+
+        ##
+     /####
+    /  ###
+       /##
+      /  ##
+      /  ##     ###  /###     /##
+     /    ##     ###/ #### / / ###
+     /    ##      ##   ###/ /   ###
+    /      ##     ##       ##    ###
+    /########     ##       ########
+   /        ##    ##       #######
+   #        ##    ##       ##
+  /####      ##   ##       ####    /
+ /   ####    ## / ###       ######/
+/     ##      #/   ###       #####
+#
+ ##
+
+
+
+     ##### /    ##
+  ######  /  #####
+ /#   /  /     #####
+/    /  ##     # ##
+    /  ###     #
+   ##   ##     #    /###   ##   ####
+   ##   ##     #   / ###  / ##    ###  /
+   ##   ##     #  /   ###/  ##     ###/
+   ##   ##     # ##    ##   ##      ##
+   ##   ##     # ##    ##   ##      ##
+    ##  ##     # ##    ##   ##      ##
+     ## #      # ##    ##   ##      ##
+      ###      # ##    ##   ##      /#
+       #########  ######     ######/ ##
+         #### ###  ####       #####   ##
+               ###
+   ########     ###
+ /############  /#
+/           ###/
+
+     #####    ##                            #######
+  ######  /  #### /                        /      ###
+ /#   /  /   ####/                        /        ##
+/    /  /    # #                          ##       #
+    /  /     #                                    /
+   ## ##     #      /##  ###  /###     /##       /
+   ## ##     #     / ###  ###/ #### / / ###     /
+   ## ########    /   ###  ##   ###/ /   ###   /
+   ## ##     #   ##    ### ##       ##    ### /
+   ## ##     ##  ########  ##       ########  #
+   #  ##     ##  #######   ##       #######    ##
+      /       ## ##        ##       ##
+  /##/        ## ####    / ##       ####    /  #
+ /  #####      ## ######/  ###       ######/  ###
+/     ##           #####    ###       #####    #
+#
+ ##
+  `)
+</script>
+</html>
+
